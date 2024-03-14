@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Hero = () => {
     return (
-        <div className="flex flex-col items-center justify-center gap-2 bg-[url(./travel3.png)] h-screen w-full bg-cover bg-center relative">
+        <div className="flex flex-col items-center justify-center gap-2 bg-[url(/travel3.png)] h-screen w-full bg-cover bg-center relative">
         <h1 className="mt-0 lg:mt-10 text-3xl sm:text-4xl md:text-6xl lg:text-7xl italic text-center px-4">My Tinerary</h1>
         <h2 className="text-md sm:text-lg md:text-2xl lg:text-3xl text-center px-4 sm:w-8/12 md:w-7/12 lg:w-5/12">Find your perfect trip, designed by insiders who know and love cities...</h2>
         <div className="backdrop-blur-[2px] bg-opacity-60 p-2 border-2 rounded-full absolute bottom-0 right-0 mb-4 mr-4 md:mb-8 md:mr-8 md:w-1/3 lg:w-1/4 bg-white flex flex-col items-center justify-center">
