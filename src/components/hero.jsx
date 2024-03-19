@@ -8,7 +8,7 @@ const Hero = () => {
           <p className="text-center p-2 font-semibold">Embark on unforgettable adventures tailored just for you</p>
           <div className="flex justify-center items-center border border-black rounded bg-[#96c75c] px-2 py-1 hover:bg-[#84a948]">
             <Link to="/cities" className="text-center mr-2 flex items-center justify-center text-xs md:text-sm lg:text-md">Start Exploring Now</Link>
-            <img src="./explorer.png" alt="ctaSymbol" className="w-4 h-4 self-center"></img>
+            <img src="/explorer.png" alt="ctaSymbol" className="w-4 h-4 self-center"></img>
           </div>
         </div>
       </div>

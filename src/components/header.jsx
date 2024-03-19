@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <div className="fixed top-0 left-0 right-0 z-10 flex justify-between items-center px-4 py-3 border border-gray-300 bg-[#effbf7] w-full md:w-screen">
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img src="/logo.png" alt="logo" className="mr-2 w-8 sm:w-10" />
-            <Link to="/" className="text-xl sm:text-2xl font-bold italic ml-2">MyTinerary</Link>
-          </div>
+            <p className="text-xl sm:text-2xl font-bold italic">MyTinerary</p>
+          </Link>
           <nav className="flex items-center text-xs sm:text-sm">
             <Link to="/" className="mr-4">Home</Link>
             <Link to="/cities" className="mr-4 sm:mr-2">Cities</Link>
