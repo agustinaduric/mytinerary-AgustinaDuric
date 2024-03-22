@@ -56,11 +56,11 @@ const Register = ()=>{
                                 {countries.length > 0 && countries.map(country => (<option value={country} key={country}>{country}</option>))}
                             </select>
                             <input className="w-10/12 h-10 outline-none rounded-lg ps-5" type="text" name="URL" placeholder="Image URL"/>
-                            <input className="cursor-pointer bg-[#00718F] w-full md:w-60 text-white h-10 rounded-lg font-semibold text-lg md:text-xl hover:bg-[#013F4E]" type="submit" value="Sign in"/>
+                            <input className="cursor-pointer bg-[#00718F] w-full md:w-60 text-white h-10 rounded-lg font-semibold text-lg md:text-xl hover:bg-[#013F4E]" type="submit" value="Sign up"/>
                         </form>
                         <div className="text-center">
                             <p className="italic">Do you have an account?</p>
-                            <Link className="flex bg-white w-full md:w-60 text-[#00718F] h-10 justify-center items-center rounded-lg font-semibold text-lg md:text-xl hover:text-[#013F4E]" to="/login">Sign up</Link>
+                            <Link className="flex bg-white w-full md:w-60 text-[#00718F] h-10 justify-center items-center rounded-lg font-semibold text-lg md:text-xl hover:text-[#013F4E]" to="/login">Sign in</Link>
                         </div>
                     </div>
                     <div className="bg-[url(/register.jpeg)] border rounded w-full md:w-1/2 flex justify-start md:h-11/12 bg-cover bg-center">
