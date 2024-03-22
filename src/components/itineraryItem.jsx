@@ -2,8 +2,7 @@ import React from "react";
 function priceItinerary (itinerary){
     let priceImages=[]
     for(let i=0; i<itinerary.price;i++){
-        priceImages.push(<img src="/price.png" alt="price" key={i} className="w-4 h-4"></img>);
-        i++;
+        priceImages.push(<img src="/price.png" alt="price" key={i} className="w-4 h-4 mt-1"></img>);
     }
     return priceImages;
 }
@@ -23,8 +22,8 @@ function ItineraryItem ({itinerary}){
             </div>
             <footer className="mt-1">
                 <p className="italic text-sm">Duration: {itinerary.duration}</p>
-                <p className="italic text-sm flex gap-1 mt-1">Price:{priceItinerary(itinerary)}</p>
-                <div className="flex gap-1 text-sm justify-end">
+                <p className="italic text-sm flex gap-1">Price:{priceItinerary(itinerary)}</p>
+                <div className="flex gap-1 text-xs md:text-sm lg:text-sm justify-end">
                     {itinerary.hashtags.map((hashtag,index) => <p key={index} className="italic">{hashtag}</p>)}
                 </div>
             </footer>

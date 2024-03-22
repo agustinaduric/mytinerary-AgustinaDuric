@@ -1,5 +1,5 @@
 import { getCities } from "../services/citiesQueries";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef } from "react";
 import CardItem from "../components/cardItem";
 import { useSelector, useDispatch } from "react-redux";
 import { filteringCities, loadAction } from "../redux/actions/citiesActions";
@@ -17,7 +17,6 @@ const Cities = ()=>{
     const handleInput = () =>{
         dispatch(filteringCities(Cityreference.current.value))
     }
-    console.log('filtrados:',filtered)
         return (
             <main className="flex backdrop-blur-4 p-2 items-center justify-center bg-[url(/cities.jpg)] bg-cover">
                 <section className="flex flex-col items-center justify-center gap-5 mt-10 w-11/12">

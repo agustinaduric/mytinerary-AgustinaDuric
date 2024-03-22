@@ -34,7 +34,7 @@ useEffect(()=>{
                     <p className="italic text-sm md:text-base lg:text-base mb-4 lg:mb-0 text-white">*Swipe to see the itineraries</p>
                 </div>
                 <div className="flex justify-center items-center border border-black rounded bg-[#96c75c] px-3 py-2 hover:bg-[#84a948] lg:mt-2 mt-1 md:mb-2">
-                    <Link to="/cities" className="text-center mr-2 flex items-center justify-center text-sm md:text-md lg:text-md font-semibold">Continue exploring</Link>
+                    <Link to="/cities" className="text-center mr-2 flex items-center justify-center text-sm md:text-md lg:text-md italic font-semibold">Continue exploring</Link>
                     <img src="/explorer.png" alt="explorerSymbol" className="w-4 h-4 self-center"></img>
                 </div>
             </div>
