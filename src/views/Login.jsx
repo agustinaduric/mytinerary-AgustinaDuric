@@ -52,7 +52,7 @@ const Login = () =>{
                         <form className="w-full flex flex-col items-center gap-4 pb-8" onSubmit={handleSubmit} onInput={handleInput}>
                             <input className="w-10/12 h-10 outline-none rounded-lg ps-5" type="email" placeholder="Email" name="email"/>
                             <input className="w-10/12 h-10 outline-none rounded-lg ps-5" type="password" placeholder="Password" name="password"/>
-                            <input type="submit" className="cursor-pointer bg-[#00718F] w-60 text-white h-10 rounded-lg font-semibold text-xl hover:bg-[#013F4E]" value="Sign up"/>
+                            <input type="submit" className="cursor-pointer bg-[#00718F] w-60 text-white h-10 rounded-lg font-semibold text-xl hover:bg-[#013F4E]" value="Sign in"/>
                         </form>
                         <div className="text-center">
                             <p className="italic">Don't have an account?</p>
